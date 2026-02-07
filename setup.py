@@ -34,8 +34,8 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name = 'Credit Card Churn Prediction',
     version = '0.0.1',
-    author = 'Pedro Almeida',
-    author_email = 'pedrooalmeida.net@gmail.com',
+    author = 'Aditya Kumar',
+    author_email = 'adityakumarbhanu15062003@gmail.com',
     packages = find_packages(),
     install_requires = get_requirements('requirements.txt')
 )
